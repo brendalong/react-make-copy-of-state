@@ -1,7 +1,7 @@
 # React: Make A Copy Of State - Gotcha
 Testing edit data with forms.
 
-Many examples and tutorials surrounding React include making a copy of state prior to calling `setState()`. Ok, I can follow the rules. However while for new developers many rules get put on the sidelines until a situation arises when the rule is broken.
+Many examples and tutorials surrounding React include making a copy of state prior to calling `setState()`. Ok, I can follow the rules. However for new developers many rules get put on the sidelines until a situation arises when the rule is broken.
 
 Making a copy of state prior to calling `setState()` is one of those rules.
 
@@ -55,4 +55,4 @@ Check out this repl.it example: https://repl.it/@BrendaLong1/Making-A-Copy-of-St
 2. **Oops**: Select edit. Make a change. Notice how edits effects current title or description. Select cancel. Changes still reflected in oops AND, select edit in the Good Stuff and notice the change from Oops gets applied. Without the copy on state, changes traveled up to the parent - oops.
 
 
-//pass setState a function rather than object
+Note: you could also pass setState a function rather than object
